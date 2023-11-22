@@ -84,8 +84,51 @@ namespace ProjetIA2022
             // Form1.xfinal   Form1.yfinal     coordonnées du point d'arrivée du bateau
             // matrice[x,y] indique le type de case  ( 0 si rien, -2 si obstacle)
 
-            return ( 0 );
-           
+            int deltaX = Math.Abs(x - Form1.xfinal);
+            int deltaY = Math.Abs(y - Form1.yfinal);
+
+            // Coût de base
+            double heuristicCost = deltaX + deltaY;
+
+            // Ajustements en fonction de la direction et de la possibilité de déplacement diagonal
+            if (Form1.xinitial < Form1.xfinal)
+            {
+               // .... Coder en fonction de la direction de départ, de là où il doit aller, faire des rapports petits à petits
+            }
+
+
+            ///Tout est a revoir
+            if (y < Form1.yfinal)
+            {
+                // Déplacement vers le bas, favorisé
+                heuristicCost -= 10;
+            }
+            else if (y > Form1.yfinal)
+            {
+                // Déplacement vers le haut, défavorisé ou rendu impossible au centre
+                if (x == Form1.xfinal && y > Form1.yfinal)
+                {
+                    // Au centre, rendu impossible vers le haut
+                    heuristicCost = double.PositiveInfinity;
+                }
+                else
+                {
+                    heuristicCost += 7;
+                }
+            }
+
+            // Ajustements pour les déplacements diagonaux
+            if (Math.Abs(x - Form1.xfinal) == Math.Abs(y - Form1.yfinal))
+            {
+                // Déplacement diagonal, ajustez le coût en conséquence
+                heuristicCost -= 5;
+            }
+
+            // Ajustements pour la vitesse du voilier (hypothétiques)
+            // ...
+
+            return heuristicCost;
+
         }
 
         public override string ToString()

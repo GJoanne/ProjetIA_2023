@@ -153,7 +153,7 @@ namespace ProjetIA2022
                 bool trouve = false;
                 int i = 0;
                 do
-                    if (NewNode.Cout_Total < N.Cout_Total)
+                    if (NewNode.Cout_Total <= N.Cout_Total)
                     {
                         L_Ouverts.Insert(i, NewNode);
                         trouve = true;
