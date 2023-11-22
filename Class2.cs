@@ -98,7 +98,37 @@ namespace ProjetIA2022
             // Form1.xbouee2 et Form1.ybouee2 sont les coordonnées de la bouée 2.
             // matrice[x,y] indique le type de case  (-1 si bouée, 0 si rien, -2 si obstacle)
 
-            return (0);
+            int xTest = x;
+            int yTest = y;
+            int xbouee = (bouee1 ? Form1.xbouee2 : Form1.xbouee1);
+            int ybouee = (bouee1 ? Form1.ybouee2 : Form1.ybouee1);
+            int distanceTheorique = 0;
+                
+            // On avance en diagonale jusqu'à arriver à la cible
+            while (xTest!=xbouee || yTest != ybouee)
+            {
+                if (xTest < xbouee)
+                {
+                    xTest += 1;
+                    if (yTest < ybouee)
+                        yTest += 1;
+                    else if (yTest > ybouee)
+                        yTest -= 1;
+                }
+                else if (xTest == xbouee && yTest > ybouee)
+                    yTest--;
+                else
+                {
+                    xTest -= 1;
+                    if (yTest < ybouee)
+                        yTest += 1;
+                    else if (yTest > ybouee)
+                        yTest -= 1;
+                }
+                distanceTheorique++;
+            }
+            Console.WriteLine("Yeeahhh : " + distanceTheorique*100);
+            return distanceTheorique*60;
             }
 
             public override string ToString()

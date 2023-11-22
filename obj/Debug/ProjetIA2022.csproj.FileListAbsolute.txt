@@ -9,3 +9,14 @@ C:\Users\solen\Documents\ENSC\2A\S7\Ingénerie Cognitique\Base de L'IA\ProjetIA2
 C:\Users\solen\Documents\ENSC\2A\S7\Ingénerie Cognitique\Base de L'IA\ProjetIA2023 ENSC\ProjetIA2023 ENSC\obj\Debug\ProjetIA2022.csproj.CoreCompileInputs.cache
 C:\Users\solen\Documents\ENSC\2A\S7\Ingénerie Cognitique\Base de L'IA\ProjetIA2023 ENSC\ProjetIA2023 ENSC\obj\Debug\ProjetIA2022.exe
 C:\Users\solen\Documents\ENSC\2A\S7\Ingénerie Cognitique\Base de L'IA\ProjetIA2023 ENSC\ProjetIA2023 ENSC\obj\Debug\ProjetIA2022.pdb
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\obj\Debug\ProjetIA2022.csproj.AssemblyReference.cache
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\obj\Debug\ProjetIA2022.csproj.SuggestedBindingRedirects.cache
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\obj\Debug\ProjetIA2022.exe
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\obj\Debug\ProjetIA2022.pdb
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\bin\Debug\ProjetIA2022.exe.config
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\bin\Debug\ProjetIA2022.exe
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\bin\Debug\ProjetIA2022.pdb
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\obj\Debug\ProjetIA2022.Form1.resources
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\obj\Debug\ProjetIA2022.Properties.Resources.resources
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\obj\Debug\ProjetIA2022.csproj.GenerateResource.cache
+D:\ensc\annee_2\S1\Bases de IA\Projet\ProjetIA_2023\obj\Debug\ProjetIA2022.csproj.CoreCompileInputs.cache
